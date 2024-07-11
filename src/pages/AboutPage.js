@@ -16,7 +16,7 @@ const AboutPage = () => (
         />
       </Box>
       <Typography variant="body1" component="p" paragraph>
-        Our bakery was established in 1990 with the mission to bring joy through our delicious pastries.
+        Our bakery was established in 2024 with the mission to bring joy through our delicious pastries.
       </Typography>
       <Typography variant="body1" component="p" paragraph>
         We value quality, tradition, and community, and strive to use the best ingredients in all our products.
