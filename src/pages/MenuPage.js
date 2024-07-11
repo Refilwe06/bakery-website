@@ -2,11 +2,11 @@ import React from 'react';
 import { Container, Typography, Box, Grid } from '@mui/material';
 
 const pastries = [
-  { name: 'Pastry 1', image: '/images/pastry1.jpg', description: 'Description of Pastry 1' },
-  { name: 'Pastry 2', image: '/images/pastry2.jpg', description: 'Description of Pastry 2' },
-  { name: 'Pastry 3', image: '/images/pastry3.jpg', description: 'Description of Pastry 3' },
-  { name: 'Bread 1', image: '/images/bread1.jpg', description: 'Description of Bread 1' },
-  { name: 'Bread 2', image: '/images/bread2.jpg', description: 'Description of Bread 2' },
+  { name: 'Pastry 1', image: '/images/pastry1.jpg', description: 'Description of Pastry , stiff dough made from flour, salt, a relatively high proportion of fat, and a small proportion of liquid. It may also contain sugar or flavourings. Most pastry is leavened only by the action of steam, but Danish pastry is raised with yeast.' },
+  { name: 'Pastry 2', image: '/images/pastry2.jpg', description: 'Description of Pastry , stiff dough made from flour, salt, a relatively high proportion of fat, and a small proportion of liquid. It may also contain sugar or flavourings. Most pastry is leavened only by the action of steam, but Danish pastry is raised with yeast.' },
+  { name: 'Pastry 3', image: '/images/pastry3.jpg', description: 'Description of Pastry , stiff dough made from flour, salt, a relatively high proportion of fat, and a small proportion of liquid. It may also contain sugar or flavourings. Most pastry is leavened only by the action of steam, but Danish pastry is raised with yeast.' },
+  { name: 'Bread 1', image: '/images/bread1.jpg', description: 'Description of Bread, baked food product made of flour or meal that is moistened, kneaded, and sometimes fermented. A major food since prehistoric times, it has been made in various forms using a variety of ingredients and methods throughout the world.' },
+  { name: 'Bread 2', image: '/images/bread2.jpg', description: 'Description of Bread, baked food product made of flour or meal that is moistened, kneaded, and sometimes fermented. A major food since prehistoric times, it has been made in various forms using a variety of ingredients and methods throughout the world.' },
 ];
 
 const MenuPage = () => (
