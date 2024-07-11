@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+div {
+  padding: 1rem;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-container .carousel .slide {
+  height: 100vh;
+}
+
+.carousel-container .carousel .slide img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; 
+}
+
+.carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 10;
+}
+
+.carousel .legend {
+  display: none; 
+}
